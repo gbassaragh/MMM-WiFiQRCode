@@ -36,13 +36,10 @@ This MagicMirror module displays a QR code that allows users to connect to a Wi-
 
 
 5. Restart MagicMirror:
-
-Copy
-Edit
-pm2 restart mm
+  pm2 restart mm
 ---
 
-### Explanation
+Explanation
 
 - **QRCode Format:** The format `WIFI:T:<encryption>;S:<SSID>;P:<password>;H:<hidden>;` is compatible with both Apple and Android devices.
 - **Dependencies:** The module relies on the `qrcode` NPM package to generate the QR image.
