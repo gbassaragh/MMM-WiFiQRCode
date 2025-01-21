@@ -1,0 +1,8 @@
+{
+  "name": "MMM-WiFiQRCode",
+  "version": "1.0.0",
+  "description": "A MagicMirror module that displays a Wi-Fi QR code for easy connectivity.",
+  "dependencies": {
+    "qrcode": "^1.5.0"
+  }
+}
